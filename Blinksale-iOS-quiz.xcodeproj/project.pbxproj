@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771B1E711A42155500301107 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B1E701A42155500301107 /* Payment.m */; };
+		771B1E741A42172E00301107 /* PaymentComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B1E731A42172E00301107 /* PaymentComment.m */; };
+		771B1E771A42195D00301107 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B1E761A42195D00301107 /* Receipt.m */; };
+		771D3D261A434F3C00333721 /* ClientsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 771D3D251A434F3C00333721 /* ClientsService.m */; };
+		771D3D291A43635600333721 /* ClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 771D3D281A43635600333721 /* ClientManager.m */; };
+		771D3D2C1A43EBD500333721 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 771D3D2B1A43EBD500333721 /* Person.m */; };
 		773E87651A3E0BAF00908425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E87641A3E0BAF00908425 /* main.m */; };
 		773E87681A3E0BAF00908425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E87671A3E0BAF00908425 /* AppDelegate.m */; };
 		773E876B1A3E0BAF00908425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E876A1A3E0BAF00908425 /* ViewController.m */; };
@@ -16,6 +22,14 @@
 		773E877F1A3E0BAF00908425 /* Blinksale_iOS_quizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E877E1A3E0BAF00908425 /* Blinksale_iOS_quizTests.m */; };
 		773E878C1A3E0C5500908425 /* InvoiceService.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E878B1A3E0C5500908425 /* InvoiceService.m */; };
 		773E878F1A3E161900908425 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E878E1A3E161900908425 /* BaseService.m */; };
+		77D324A71A4146BF00CE34FE /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D324A61A4146BF00CE34FE /* Comment.m */; };
+		77D324AB1A4148E900CE34FE /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D324AA1A4148E900CE34FE /* Utils.m */; };
+		77D324AE1A41553A00CE34FE /* LateFee.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D324AD1A41553A00CE34FE /* LateFee.m */; };
+		77D324B11A4156A300CE34FE /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D324B01A4156A300CE34FE /* Line.m */; };
+		77FE8FF71A40B398004036DE /* Invoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE8FF61A40B398004036DE /* Invoice.m */; };
+		77FE8FFA1A40B659004036DE /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE8FF91A40B659004036DE /* Client.m */; };
+		77FE8FFD1A40B72E004036DE /* Terms.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE8FFC1A40B72E004036DE /* Terms.m */; };
+		77FE90001A40B9DB004036DE /* InvoiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE8FFF1A40B9DB004036DE /* InvoiceManager.m */; };
 		F177ED891EA601F3E18412A4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFD83D717E9B6FD6A33550E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +45,18 @@
 
 /* Begin PBXFileReference section */
 		6CFD83D717E9B6FD6A33550E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		771B1E6F1A42155500301107 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Payment.h; path = Model/Payment.h; sourceTree = "<group>"; };
+		771B1E701A42155500301107 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Payment.m; path = Model/Payment.m; sourceTree = "<group>"; };
+		771B1E721A42172E00301107 /* PaymentComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaymentComment.h; path = Model/PaymentComment.h; sourceTree = "<group>"; };
+		771B1E731A42172E00301107 /* PaymentComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaymentComment.m; path = Model/PaymentComment.m; sourceTree = "<group>"; };
+		771B1E751A42195D00301107 /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Receipt.h; path = Model/Receipt.h; sourceTree = "<group>"; };
+		771B1E761A42195D00301107 /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Receipt.m; path = Model/Receipt.m; sourceTree = "<group>"; };
+		771D3D241A434F3C00333721 /* ClientsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientsService.h; path = Provider/ClientsService.h; sourceTree = "<group>"; };
+		771D3D251A434F3C00333721 /* ClientsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientsService.m; path = Provider/ClientsService.m; sourceTree = "<group>"; };
+		771D3D271A43635600333721 /* ClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientManager.h; path = Manager/ClientManager.h; sourceTree = "<group>"; };
+		771D3D281A43635600333721 /* ClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientManager.m; path = Manager/ClientManager.m; sourceTree = "<group>"; };
+		771D3D2A1A43EBD500333721 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Model/Person.h; sourceTree = "<group>"; };
+		771D3D2B1A43EBD500333721 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Model/Person.m; sourceTree = "<group>"; };
 		773E875F1A3E0BAF00908425 /* Blinksale-iOS-quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blinksale-iOS-quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773E87631A3E0BAF00908425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		773E87641A3E0BAF00908425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +74,22 @@
 		773E878B1A3E0C5500908425 /* InvoiceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvoiceService.m; path = Provider/InvoiceService.m; sourceTree = "<group>"; };
 		773E878D1A3E161900908425 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseService.h; path = Provider/BaseService.h; sourceTree = "<group>"; };
 		773E878E1A3E161900908425 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseService.m; path = Provider/BaseService.m; sourceTree = "<group>"; };
+		77D324A51A4146BF00CE34FE /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comment.h; path = Model/Comment.h; sourceTree = "<group>"; };
+		77D324A61A4146BF00CE34FE /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = Model/Comment.m; sourceTree = "<group>"; };
+		77D324A91A4148E900CE34FE /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Util/Utils.h; sourceTree = "<group>"; };
+		77D324AA1A4148E900CE34FE /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Util/Utils.m; sourceTree = "<group>"; };
+		77D324AC1A41553A00CE34FE /* LateFee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LateFee.h; path = Model/LateFee.h; sourceTree = "<group>"; };
+		77D324AD1A41553A00CE34FE /* LateFee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LateFee.m; path = Model/LateFee.m; sourceTree = "<group>"; };
+		77D324AF1A4156A300CE34FE /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Line.h; path = Model/Line.h; sourceTree = "<group>"; };
+		77D324B01A4156A300CE34FE /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Line.m; path = Model/Line.m; sourceTree = "<group>"; };
+		77FE8FF51A40B398004036DE /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Invoice.h; path = Model/Invoice.h; sourceTree = "<group>"; };
+		77FE8FF61A40B398004036DE /* Invoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Invoice.m; path = Model/Invoice.m; sourceTree = "<group>"; };
+		77FE8FF81A40B659004036DE /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = Model/Client.h; sourceTree = "<group>"; };
+		77FE8FF91A40B659004036DE /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = Model/Client.m; sourceTree = "<group>"; };
+		77FE8FFB1A40B72E004036DE /* Terms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terms.h; path = Model/Terms.h; sourceTree = "<group>"; };
+		77FE8FFC1A40B72E004036DE /* Terms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Terms.m; path = Model/Terms.m; sourceTree = "<group>"; };
+		77FE8FFE1A40B9DB004036DE /* InvoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvoiceManager.h; path = Manager/InvoiceManager.h; sourceTree = "<group>"; };
+		77FE8FFF1A40B9DB004036DE /* InvoiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvoiceManager.m; path = Manager/InvoiceManager.m; sourceTree = "<group>"; };
 		A33F3483C49A24A9D962DF32 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F9517304EC33A27EAA146FEB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +144,8 @@
 		773E87611A3E0BAF00908425 /* Blinksale-iOS-quiz */ = {
 			isa = PBXGroup;
 			children = (
+				77D324A81A4148D400CE34FE /* Util */,
+				77FE8FF41A40B381004036DE /* Model */,
 				773E87891A3E0BCA00908425 /* Manager */,
 				773E87881A3E0BC200908425 /* Provider */,
 				773E87661A3E0BAF00908425 /* AppDelegate.h */,
@@ -149,6 +193,8 @@
 				773E878B1A3E0C5500908425 /* InvoiceService.m */,
 				773E878D1A3E161900908425 /* BaseService.h */,
 				773E878E1A3E161900908425 /* BaseService.m */,
+				771D3D241A434F3C00333721 /* ClientsService.h */,
+				771D3D251A434F3C00333721 /* ClientsService.m */,
 			);
 			name = Provider;
 			sourceTree = "<group>";
@@ -156,8 +202,48 @@
 		773E87891A3E0BCA00908425 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				77FE8FFE1A40B9DB004036DE /* InvoiceManager.h */,
+				77FE8FFF1A40B9DB004036DE /* InvoiceManager.m */,
+				771D3D271A43635600333721 /* ClientManager.h */,
+				771D3D281A43635600333721 /* ClientManager.m */,
 			);
 			name = Manager;
+			sourceTree = "<group>";
+		};
+		77D324A81A4148D400CE34FE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				77D324A91A4148E900CE34FE /* Utils.h */,
+				77D324AA1A4148E900CE34FE /* Utils.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		77FE8FF41A40B381004036DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77FE8FF51A40B398004036DE /* Invoice.h */,
+				77FE8FF61A40B398004036DE /* Invoice.m */,
+				77FE8FF81A40B659004036DE /* Client.h */,
+				77FE8FF91A40B659004036DE /* Client.m */,
+				77FE8FFB1A40B72E004036DE /* Terms.h */,
+				77FE8FFC1A40B72E004036DE /* Terms.m */,
+				77D324A51A4146BF00CE34FE /* Comment.h */,
+				77D324A61A4146BF00CE34FE /* Comment.m */,
+				77D324AC1A41553A00CE34FE /* LateFee.h */,
+				77D324AD1A41553A00CE34FE /* LateFee.m */,
+				77D324AF1A4156A300CE34FE /* Line.h */,
+				77D324B01A4156A300CE34FE /* Line.m */,
+				771B1E6F1A42155500301107 /* Payment.h */,
+				771B1E701A42155500301107 /* Payment.m */,
+				771B1E721A42172E00301107 /* PaymentComment.h */,
+				771B1E731A42172E00301107 /* PaymentComment.m */,
+				771B1E751A42195D00301107 /* Receipt.h */,
+				771B1E761A42195D00301107 /* Receipt.m */,
+				771D3D2A1A43EBD500333721 /* Person.h */,
+				771D3D2B1A43EBD500333721 /* Person.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		ADA1BCD2F000AFC94D5A3EF7 /* Pods */ = {
@@ -304,11 +390,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771B1E771A42195D00301107 /* Receipt.m in Sources */,
+				77D324B11A4156A300CE34FE /* Line.m in Sources */,
+				771D3D2C1A43EBD500333721 /* Person.m in Sources */,
+				771D3D291A43635600333721 /* ClientManager.m in Sources */,
 				773E876B1A3E0BAF00908425 /* ViewController.m in Sources */,
+				771B1E741A42172E00301107 /* PaymentComment.m in Sources */,
+				77D324AB1A4148E900CE34FE /* Utils.m in Sources */,
 				773E878C1A3E0C5500908425 /* InvoiceService.m in Sources */,
+				771D3D261A434F3C00333721 /* ClientsService.m in Sources */,
 				773E87681A3E0BAF00908425 /* AppDelegate.m in Sources */,
+				77D324A71A4146BF00CE34FE /* Comment.m in Sources */,
+				771B1E711A42155500301107 /* Payment.m in Sources */,
+				77FE8FF71A40B398004036DE /* Invoice.m in Sources */,
+				77D324AE1A41553A00CE34FE /* LateFee.m in Sources */,
 				773E87651A3E0BAF00908425 /* main.m in Sources */,
+				77FE8FFD1A40B72E004036DE /* Terms.m in Sources */,
 				773E878F1A3E161900908425 /* BaseService.m in Sources */,
+				77FE8FFA1A40B659004036DE /* Client.m in Sources */,
+				77FE90001A40B9DB004036DE /* InvoiceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

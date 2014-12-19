@@ -13,7 +13,9 @@
 @interface InvoiceService : BaseService
 
 /**
- Returns all the invoices for the logged in user.
+ Makes a GET call in order to get all the invoices for the logged in user.
+ @param success the success block
+ @param fail the fail block
  */
 - (void)getInvoicesWithSuccessBlock:(void (^)(id response))success failBlock:(void (^)(NSError *error))fail;
 

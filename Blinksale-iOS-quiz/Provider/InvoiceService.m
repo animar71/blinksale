@@ -12,11 +12,11 @@
 @implementation InvoiceService
 
 - (void)getInvoicesWithSuccessBlock:(void (^)(id resposne))success failBlock:(void (^)(NSError *error))fail {
-    [self getWithPath:@"/clients" successBlock:^(id response) {
-        NSDictionary *a = [[XMLDictionaryParser new] dictionaryWithParser:(NSXMLParser*)response];
-        NSLog(@"%@", a);
+    [self getWithPath:@"/invoices" successBlock:^(id response) {
+        success(response);
+        
     } failBlock:^(NSError *error) {
-        NSLog(@"%@", error);
+        fail(error);
     }];
 }
 

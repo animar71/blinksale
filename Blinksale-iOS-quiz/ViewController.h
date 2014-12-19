@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InvoiceManager.h"
+#import "ClientManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <InvoiceManagerDelegate, ClientManagerDelegate>
 
 
 @end

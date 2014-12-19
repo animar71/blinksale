@@ -9,20 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface BaseService : NSObject {
-    
 }
 
-
 /**
- The authorisation code to pass as a RFC2045-MIME variant of Base64. This will be used in the Authorization header
+ Creates a BaseService object that is initialized with an userName and password
+ @param userName - used for login
+ @param blinkSaleId - the id from the blinksale like example.blinksale.com
+ @param password - password used for login
+ @return an Baseservice object
  */
-
-@property (nonatomic, strong) NSString *authorisation;
-
-/**
- The username that will be used for all the calls.
- */
-@property (nonatomic, strong) NSString *userName;
++ (instancetype)getServiceWithUserName:(NSString *)userName  blinksaleId:(NSString *)blinkSaleId andPassword:(NSString *)password;
 
 /**
  Makes a GET request
@@ -32,5 +28,20 @@
  */
 - (void)getWithPath:(NSString *)path successBlock:(void (^)(id response))success failBlock:(void(^)(NSError *error))fail;
 
+/**
+  Makes a GET request
+ @param uri the URI that is used to make the call
+ @param success the success block
+ @param fail the fail block
+ */
+- (void)getWithURI:(NSURL *)uri successBlock:(void (^)(id response))success failBlock:(void (^)(NSError *error))fail;
+
+/**
+ Makes a POST request
+ @param uri the URI that is used to make the call
+ @param success the success block
+ @param fail the fail block
+ */
+- (void)postWithURI:(NSURL *)uri body:(NSString *)body successBlock:(void (^)(id response))success failBlock:(void (^)(NSError *error))fail;
 
 @end
